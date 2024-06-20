@@ -26,3 +26,5 @@ class OrderItem(models.Model):
 
     def __str__(self):
         return f'{self.quantity}x {self.pizza.name} for {self.order.customer_name}'
+
+
